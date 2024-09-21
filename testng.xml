@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suiteone">
+	<test thread-count="5" name="Testone">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="test_cases.Register" />
+			<class name="test_cases.Login" />
+			<class name="test_cases.Search" />
+		</classes>
+		
+	</test> <!--Testone -->
+
+</suite> <!--
+Suiteone -->

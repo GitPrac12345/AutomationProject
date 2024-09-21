@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteTwo">
+	<test thread-count="5" name="TestTwo">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="test_cases.Register" />
+			<class name="test_cases.Login" />
+			<class name="test_cases.Search" />
+
+		</classes>
+	</test> <!--
+	TestThree -->
+	<test thread-count="5" name="TestThree">
+		<classes>
+			<class name="demo_Testcases.demo1" />
+			<class name="demo_Testcases.Demo2" />
+
+		</classes>
+	</test> <!--
+	TestTwo -->
+</suite> <!--
+SuiteTwo -->
